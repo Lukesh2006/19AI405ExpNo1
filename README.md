@@ -1,6 +1,6 @@
 <h1>ExpNo 1 :Developing AI Agent with PEAS Description</h1>
 <h3>Name: LUKESH M</h3>
-<h3>Register Number/Staff Id: 212224230144</h3>
+<h3>Register No: 212224230144</h3>
 
 
 <h3>AIM:</h3>
@@ -40,8 +40,9 @@
 <p>Treat unhealthy patients in each room. And check for the unhealthy patients in random room</p>
 <h3>STEP 5:</h3>
 <p>Measure the performance parameters: For each treatment performance incremented, for each movement performance decremented</p>
-### Program:
-```
+
+### Program 
+```python
 class HealthMonitoringAgent:
     def __init__(self, patient_data):
         self.patient_data = patient_data
@@ -86,11 +87,12 @@ if __name__ == "__main__":
     agent.actuators = HealthActuators()
 
     agent.monitor_health()
+```
+### Output
 
-### output:
 
-<img width="544" height="90" alt="image" src="https://github.com/user-attachments/assets/1c0ad3d6-937f-4ee7-8526-47049c7b7a62" />
 
-### Result:
-This program exececuted successfully
+<img width="544" height="90" alt="Screenshot 2026-02-02 081038" src="https://github.com/user-attachments/assets/3848a85b-28e7-4d35-845f-43976fddacec" />
 
+### Result 
+Thus the code is executed successfully.
